@@ -1,0 +1,42 @@
+.button{
+    width:75;
+    height:75;
+    font-size:40;
+    margin:2;
+    background:rgb(41, 2, 142);
+    border: none;
+    color: white;
+   
+   
+}
+.textview{
+    width:350;
+    margin:2;
+    font-size:35;
+    padding:5;
+    border: none;
+}
+.main{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%)translateY(-50%);
+    box-shadow: 4px 4px 7px #c4fcef4d,
+            inset 10px 10px 10px #4d80766c,
+            inset -4px -4px 4px #c4fcef6c,
+            -2px -2px 4px #4d80766c;
+            
+
+}
+.bg{
+    background:linear-gradient(to bottom right,rgb(107, 245, 107),rgb(96, 96, 230));
+    height: 100%;
+}
+.heading{
+    position :absoulte;
+    text-align: center;
+    margin-top: 20;
+    font-family: Bebas neue;
+    font-size: 100px;
+    color: rgb(41, 2, 142);
+}
